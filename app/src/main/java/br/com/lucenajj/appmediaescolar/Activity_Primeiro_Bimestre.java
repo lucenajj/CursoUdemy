@@ -27,6 +27,8 @@ public class Activity_Primeiro_Bimestre extends AppCompatActivity {
         setContentView(R.layout.activity_primeiro_bimestre);
 
 
+        teste();
+
         editTextMateria = findViewById(R.id.editMateria);
         editTextNotaProva = findViewById(R.id.editNotaProva);
         editTextNotaTrabalho = findViewById(R.id.editNotaTrabalho);
@@ -100,5 +102,10 @@ public class Activity_Primeiro_Bimestre extends AppCompatActivity {
         editorMediaEscolarAct1.putBoolean("primeiroBimestre", true);
         editorMediaEscolarAct1.commit();
 
+    }
+
+    public void teste(){
+
+        textViewResultado.setText("teste");
     }
 }
